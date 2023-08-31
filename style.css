@@ -1,0 +1,29 @@
+
+body {
+    background-color: rgb(39, 38, 38);
+    font-family:cursive;
+}
+
+.primeira {
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+   background-color:#c1caca;
+   color: rgb(32, 32, 221);
+    width: 90%;
+    margin: 50px;
+    
+}
+
+.container {
+    width: 90%;
+    margin: 50px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 2fr 2fr ;
+    grid-template-rows: 150px 150px 150px;
+}
+
+.item {
+    border: 1px solid rgb(43, 192, 226);
+    background-color: #c1caca;
+}
