@@ -1,17 +1,20 @@
 
 body {
-    background-color: rgb(39, 38, 38);
+    background-color: rgba(9, 151, 245, 0.952);
     font-family:cursive;
+    color: rgb(255, 255, 255);
+}
+
+.cabeca {
+    border: 2px solid rgba(220, 229, 231, 0.734);
+    background-color:#29f7f790;
+    color: aliceblue;
+    margin: 20px;
 }
 
 .primeira {
-   display: grid;
-   grid-template-columns: auto auto auto auto;
-   background-color:#c1caca;
-   color: rgb(32, 32, 221);
-    width: 90%;
-    margin: 50px;
-    
+    display: flex;
+    gap: 32px;
 }
 
 .container {
@@ -24,6 +27,6 @@ body {
 }
 
 .item {
-    border: 1px solid rgb(43, 192, 226);
-    background-color: #c1caca;
+    border: 2px solid rgba(220, 229, 231, 0.734);
+    background-color: #3ff7f790;
 }
